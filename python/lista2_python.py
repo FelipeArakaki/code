@@ -207,7 +207,7 @@ def lista2_ex6():
         return
     for i in range(x):
         while(True):
-            h = int(input(f"Digite elemento {i+1}: "))
+            h = int(input(f"Digite elemento {i + 1}: "))
             if h >= 15:
                 prod *= h
                 break

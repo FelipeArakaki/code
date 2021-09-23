@@ -268,7 +268,7 @@ def lista1_ex13():
     for i in range(qt_notas): # "for ... in ...:" itera sobre elementos de uma lista; 
                               # "i" representa cada item da lista; primeiro elemento tem índice "0"
                               # "range()" limita quantidade de iterações
-        notas[i] = float(input("Digite a nota do bimestre {}: ".format(i+1)))
+        notas[i] = float(input("Digite a nota do bimestre {}: ".format(i + 1)))
         # "notas[i]": atribui à variável "notas", em seu índice "i", o valor digitado
         # ".format()": string interpolation; seus parâmetros substituem "{}" na sequência informada
         if notas[i] < 0 or notas[i] > 10:

@@ -16,7 +16,7 @@ mostre apenas os números maiores que 121 que estão armazenados no vetor.
 def lista4_ex2():
     a = []
     for i in range(12):
-        k = int(input(f"Digite elemento {i+1}: "))
+        k = int(input(f"Digite elemento {i + 1}: "))
         a.append(k)
     print("Num > 121:", [n for n in a if n > 121])
 '''
@@ -27,7 +27,7 @@ def lista4_ex3():
     lista = []
     for i in range(10):
         while(True):
-            k = int(input(f"Digite elemento {i+1}: "))
+            k = int(input(f"Digite elemento {i + 1}: "))
             if k >= 0:
                 break
         lista.append(k)
@@ -246,12 +246,12 @@ def lista4_ex9_alt(): # um vetor
             break
     for i in range(k):
         while(True):
-            salario = float(input(f"Digite salário {i+1}: "))
+            salario = float(input(f"Digite salário {i + 1}: "))
             if salario <= 0:
                 print("Informe corretamente.")
             else:
                 break
-        nome = input(f"Digite nome {i+1}: ")
+        nome = input(f"Digite nome {i + 1}: ")
         lista.append([salario, nome])
 
     print(* lista, sep="\n")
